@@ -7,8 +7,7 @@ import { Section } from "@/components/layout/section"
 import { Container } from "@/components/layout/container"
 import { getPostBySlug, getAllPosts } from "@/lib/blog"
 import { formatDate } from "@/lib/utils"
-import { MDXRemote } from "next-mdx-remote/rsc"
-import { mdxComponents } from "@/components/mdx-components"
+// import { MDXRemote } from "next-mdx-remote/rsc"
 
 interface BlogPostPageProps {
   params: {
@@ -52,7 +51,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
               </header>
 
               <div className="prose prose-lg max-w-none dark:prose-invert">
-                <MDXRemote source={post.content} components={mdxComponents} />
+                <div dangerouslySetInnerHTML={{ __html: post.content }} />
               </div>
             </article>
           </div>
