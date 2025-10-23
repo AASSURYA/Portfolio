@@ -1,0 +1,103 @@
+{
+  "name": "{{YOUR_NAME}}",
+  "role": "{{YOUR_ROLE_TAGLINE}}",
+  "location": "{{CITY_COUNTRY}}",
+  "about": "{{SHORT_BIO_2_3_SENTENCES}}",
+  "avatar": "/images/avatar.jpg",
+  "contacts": {
+    "email": "{{YOUR_EMAIL}}",
+    "github": "{{GITHUB_URL}}",
+    "linkedin": "{{LINKEDIN_URL}}",
+    "twitter": "{{TWITTER_URL}}",
+    "resume": "/resume/{{SAFE_FILE_NAME}}.pdf"
+  },
+  "skills": ["{{Skill1}}", "{{Skill2}}", "{{Skill3}}", "{{Skill4}}", "{{Skill5}}"],
+  "projects": [
+    {
+      "title": "{{PROJECT_TITLE}}",
+      "slug": "featured-project",
+      "summary": "{{ONE_LINE_IMPACT}}",
+      "description": "A showcase project demonstrating modern web development practices with Next.js, TypeScript, and cutting-edge design patterns. Built with performance and accessibility in mind.",
+      "tags": ["Next.js", "TypeScript", "Design", "Performance"],
+      "link": "{{PROJECT_URL}}",
+      "repo": "{{PROJECT_REPO_URL}}",
+      "images": ["/images/projects/featured-1.png", "/images/projects/featured-2.png"],
+      "highlight": true
+    },
+    {
+      "title": "E-Commerce Platform",
+      "slug": "ecommerce-platform",
+      "summary": "Scalable e-commerce solution with 99.9% uptime and 40% faster checkout.",
+      "description": "Built a full-stack e-commerce platform using Next.js, Node.js, and PostgreSQL. Implemented real-time inventory management, payment processing, and advanced analytics dashboard.",
+      "tags": ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
+      "link": "https://example-ecommerce.com",
+      "repo": "https://github.com/example/ecommerce",
+      "images": ["/images/projects/ecommerce-1.png", "/images/projects/ecommerce-2.png"],
+      "highlight": false
+    },
+    {
+      "title": "AI Chat Application",
+      "slug": "ai-chat-app",
+      "summary": "Real-time AI chat with 10K+ daily active users and sub-100ms response times.",
+      "description": "Developed an intelligent chat application with real-time messaging, AI-powered responses, and advanced moderation. Features include voice messages, file sharing, and custom emoji reactions.",
+      "tags": ["React", "WebSocket", "AI", "Real-time"],
+      "link": "https://example-chat.com",
+      "repo": "https://github.com/example/ai-chat",
+      "images": ["/images/projects/chat-1.png", "/images/projects/chat-2.png"],
+      "highlight": false
+    }
+  ],
+  "experience": [
+    {
+      "company": "TechCorp Inc.",
+      "role": "Senior Frontend Engineer",
+      "period": "2022–Present",
+      "bullets": [
+        "Led development of 5+ production applications serving 100K+ users",
+        "Improved Core Web Vitals scores by 40% across all products",
+        "Mentored 3 junior developers and established coding standards"
+      ]
+    },
+    {
+      "company": "StartupXYZ",
+      "role": "Full Stack Developer",
+      "period": "2020–2022",
+      "bullets": [
+        "Built MVP from scratch using React, Node.js, and AWS",
+        "Achieved 99.9% uptime and 2x faster page load times",
+        "Implemented CI/CD pipeline reducing deployment time by 60%"
+      ]
+    },
+    {
+      "company": "Digital Agency",
+      "role": "Frontend Developer",
+      "period": "2018–2020",
+      "bullets": [
+        "Delivered 20+ client websites with 100% on-time delivery",
+        "Increased client conversion rates by 25% through UX optimization",
+        "Collaborated with design team to create pixel-perfect implementations"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "title": "CTO, TechCorp Inc.",
+      "quote": "Exceptional technical skills and leadership. Delivered complex features ahead of schedule while maintaining code quality."
+    },
+    {
+      "name": "Mike Chen",
+      "title": "Product Manager, StartupXYZ",
+      "quote": "Outstanding problem-solving abilities and attention to detail. Transformed our product vision into reality."
+    },
+    {
+      "name": "Emily Rodriguez",
+      "title": "Design Director, Digital Agency",
+      "quote": "Perfect balance of technical expertise and design sensibility. A pleasure to work with."
+    }
+  ],
+  "blog": {
+    "enabled": true,
+    "rss": true
+  }
+}
